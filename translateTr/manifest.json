@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Translate to Turkish",
+  "version": "1.0",
+  "description": "Right-click to translate selected English text to Turkish using Google Translate.",
+  "permissions": ["contextMenus", "tabs", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Translate to Turkish",
+    "default_icon": "icon128.png"
+  },
+  "icons": {
+    "128": "icon128.png"
+  }
+}
